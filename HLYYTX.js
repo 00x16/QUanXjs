@@ -68,6 +68,8 @@ let ut = '',id = '',qd='',qdfb='',gg='',sp='',fx='',zs='',tg='',wz=''
           hlyyurl = hlyyurlArr[i];
           hlyyhd = hlyyhdArr[i];
           $.index = i + 1;
+          await hlyylb();
+          await $.wait(1000);
           await hlyyxx()
           await hlyyme()
           await hlyytx()
