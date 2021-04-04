@@ -71,7 +71,7 @@ let ut = '',id = '',qd='',qdfb='',gg='',sp='',fx='',zs='',tg='',wz=''
           console.log(`\n 开始【葫芦音乐${$.index}】`)
           await hlyyme()
           await hlyytx()
-          await $.wait(1000);
+          await $.wait(3000);
   }
 }}
 
