@@ -68,7 +68,7 @@ let ut = '',id = '',qd='',qdfb='',gg='',sp='',fx='',zs='',tg='',wz=''
           hlyyurl = hlyyurlArr[i];
           hlyyhd = hlyyhdArr[i];
           $.index = i + 1;
-          console.log(`\n 开始【葫芦音乐${$.index}】`)
+          await hlyyxx()
           await hlyyme()
           await hlyytx()
           await $.wait(3000);
