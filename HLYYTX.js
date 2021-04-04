@@ -70,6 +70,8 @@ let ut = '',id = '',qd='',qdfb='',gg='',sp='',fx='',zs='',tg='',wz=''
           $.index = i + 1;
           await hlyylb();
           await $.wait(1000);
+          await hlyyqd()
+          await $.wait(3000);
           await hlyyxx()
           await hlyyme()
           await hlyytx()
